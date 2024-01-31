@@ -38,7 +38,7 @@ const weather = async (name) => {
     searched_city.innerHTML = `<p>${city_name}</p>`;
     status.innerHTML = `<p>${weather_stat}</p>`;
     image.src = image_icon;
-    image2.src = "location1.png";
+    image2.src = "./images/location1.png";
     celsius.innerHTML = `<p>Temp. in C :   ${temp_celsius}<span>&#8451;</span></p>`;
     fahrenheit.innerHTML = `<p>Temp. in F :   ${temp_fahrenheit}<span>&#8457;</span></p>`;
     humidity.innerHTML = `<p>Humidity :   ${net_humidity}%</p>`;
